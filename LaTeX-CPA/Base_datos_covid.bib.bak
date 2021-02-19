@@ -1,0 +1,21 @@
+This file was created with JabRef 2.2.
+Encoding: Cp1252
+
+@ARTICLE{doi:10.1080/07391102.2020.1808077,
+  author = { Aniket Sharma and Shubham Goyal and Arvind Kumar Yadav and Pawan
+	Kumar and Lovely Gupta },
+  title = {In-silico screening of plant-derived antivirals against main protease,
+	3CLpro and endoribonuclease, NSP15 proteins of SARS-CoV-2},
+  journal = {Journal of Biomolecular Structure and Dynamics},
+  year = {2020},
+  volume = {0},
+  pages = {1-15},
+  number = {0},
+  note = {PMID: 32896226},
+  doi = {10.1080/07391102.2020.1808077},
+  eprint = { https://doi.org/10.1080/07391102.2020.1808077 },
+  publisher = {Taylor \& Francis},
+  url = { https://doi.org/10.1080/07391102.2020.1808077 
+}
+}
+

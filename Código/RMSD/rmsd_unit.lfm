@@ -1,0 +1,83 @@
+object Form1: TForm1
+  Left = 335
+  Height = 519
+  Top = 127
+  Width = 884
+  Caption = 'Form1'
+  ClientHeight = 519
+  ClientWidth = 884
+  LCLVersion = '2.0.10.0'
+  object Button1: TButton
+    Left = 72
+    Height = 32
+    Top = 51
+    Width = 98
+    Caption = 'Cargar proteína'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Edit1: TEdit
+    Left = 184
+    Height = 23
+    Top = 58
+    Width = 148
+    TabOrder = 1
+  end
+  object Memo1: TMemo
+    Left = 75
+    Height = 358
+    Top = 93
+    Width = 257
+    ScrollBars = ssBoth
+    TabOrder = 2
+    WordWrap = False
+  end
+  object Button2: TButton
+    Left = 362
+    Height = 26
+    Top = 56
+    Width = 139
+    Caption = 'Seleccionar cisteínas'
+    OnClick = Button2Click
+    TabOrder = 3
+  end
+  object Memo2: TMemo
+    Left = 362
+    Height = 117
+    Top = 97
+    Width = 486
+    TabOrder = 4
+    WordWrap = False
+  end
+  object Button3: TButton
+    Left = 359
+    Height = 32
+    Top = 230
+    Width = 141
+    Caption = 'Cálculo RMSD'
+    OnClick = Button3Click
+    TabOrder = 5
+  end
+  object Memo3: TMemo
+    Left = 368
+    Height = 177
+    Top = 272
+    Width = 489
+    ScrollBars = ssAutoVertical
+    TabOrder = 6
+    WordWrap = False
+  end
+  object Memo4: TMemo
+    Left = 359
+    Height = 177
+    Top = 272
+    Width = 489
+    ScrollBars = ssAutoVertical
+    TabOrder = 7
+    WordWrap = False
+  end
+  object OpenDialog1: TOpenDialog
+    Left = 171
+    Top = 185
+  end
+end

@@ -1,0 +1,100 @@
+ID   C8YTM6_CAERE            Unreviewed;       398 AA.
+AC   C8YTM6;
+DT   02-NOV-2009, integrated into UniProtKB/TrEMBL.
+DT   02-NOV-2009, sequence version 1.
+DT   03-FEB-2015, entry version 36.
+DE   SubName: Full=AHA-1 {ECO:0000313|EMBL:ACV73019.1};
+DE   Flags: Fragment;
+GN   Name=aha-1 {ECO:0000313|EMBL:ACV73019.1};
+OS   Caenorhabditis remanei (Caenorhabditis vulgaris).
+OC   Eukaryota; Metazoa; Ecdysozoa; Nematoda; Chromadorea; Rhabditida;
+OC   Rhabditoidea; Rhabditidae; Peloderinae; Caenorhabditis.
+OX   NCBI_TaxID=31234 {ECO:0000313|EMBL:ACV73019.1};
+RN   [1] {ECO:0000313|EMBL:ACV73019.1}
+RP   NUCLEOTIDE SEQUENCE.
+RC   STRAIN=PB237 {ECO:0000313|EMBL:ACV73019.1},
+RC   PB241 {ECO:0000313|EMBL:ACV73020.1},
+RC   PB244 {ECO:0000313|EMBL:ACV73021.1},
+RC   PB245 {ECO:0000313|EMBL:ACV73022.1},
+RC   PB247 {ECO:0000313|EMBL:ACV73023.1},
+RC   PB255 {ECO:0000313|EMBL:ACV73024.1},
+RC   PB257 {ECO:0000313|EMBL:ACV73026.1},
+RC   PB261 {ECO:0000313|EMBL:ACV73028.1},
+RC   PB263 {ECO:0000313|EMBL:ACV73029.1},
+RC   PB266 {ECO:0000313|EMBL:ACV73030.1},
+RC   PB271 {ECO:0000313|EMBL:ACV73032.1},
+RC   PB272 {ECO:0000313|EMBL:ACV73033.1}, and
+RC   PB285 {ECO:0000313|EMBL:ACV73034.1};
+RX   PubMed=19589887; DOI=10.1093/molbev/msp142;
+RA   Jovelin R.;
+RT   "Rapid sequence evolution of transcription factors controlling neuron
+RT   differentiation in Caenorhabditis.";
+RL   Mol. Biol. Evol. 26:2373-2386(2008).
+CC   -!- SIMILARITY: Contains 1 basic helix-loop-helix (bHLH) domain.
+CC       {ECO:0000256|RuleBase:RU000367}.
+CC   -!- SIMILARITY: Contains bHLH (basic helix-loop-helix) domain.
+CC       {ECO:0000256|SAAS:SAAS00147038}.
+CC   -----------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see http://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution-NoDerivs License
+CC   -----------------------------------------------------------------------
+DR   EMBL; FJ804774; ACV73019.1; -; mRNA.
+DR   EMBL; FJ804775; ACV73020.1; -; mRNA.
+DR   EMBL; FJ804776; ACV73021.1; -; mRNA.
+DR   EMBL; FJ804777; ACV73022.1; -; mRNA.
+DR   EMBL; FJ804778; ACV73023.1; -; mRNA.
+DR   EMBL; FJ804779; ACV73024.1; -; mRNA.
+DR   EMBL; FJ804781; ACV73026.1; -; mRNA.
+DR   EMBL; FJ804783; ACV73028.1; -; mRNA.
+DR   EMBL; FJ804784; ACV73029.1; -; mRNA.
+DR   EMBL; FJ804785; ACV73030.1; -; mRNA.
+DR   EMBL; FJ804787; ACV73032.1; -; mRNA.
+DR   EMBL; FJ804788; ACV73033.1; -; mRNA.
+DR   EMBL; FJ804789; ACV73034.1; -; mRNA.
+DR   STRING; 31234.CRE23963; -.
+DR   eggNOG; NOG293303; -.
+DR   GO; GO:0005737; C:cytoplasm; IEA:InterPro.
+DR   GO; GO:0005634; C:nucleus; ISS:UniProtKB.
+DR   GO; GO:0005667; C:transcription factor complex; IEA:InterPro.
+DR   GO; GO:0003677; F:DNA binding; ISS:UniProtKB.
+DR   GO; GO:0003700; F:sequence-specific DNA binding transcription factor activity; IEA:InterPro.
+DR   GO; GO:0004871; F:signal transducer activity; IEA:InterPro.
+DR   GO; GO:0001708; P:cell fate specification; ISS:UniProtKB.
+DR   GO; GO:0040011; P:locomotion; ISS:UniProtKB.
+DR   GO; GO:0040010; P:positive regulation of growth rate; ISS:UniProtKB.
+DR   GO; GO:0040017; P:positive regulation of locomotion; ISS:UniProtKB.
+DR   GO; GO:0045944; P:positive regulation of transcription from RNA polymerase II promoter; ISS:UniProtKB.
+DR   GO; GO:0009410; P:response to xenobiotic stimulus; ISS:UniProtKB.
+DR   GO; GO:0006366; P:transcription from RNA polymerase II promoter; ISS:UniProtKB.
+DR   Gene3D; 4.10.280.10; -; 1.
+DR   InterPro; IPR011598; bHLH_dom.
+DR   InterPro; IPR001067; Nuc_translocat.
+DR   InterPro; IPR001610; PAC.
+DR   InterPro; IPR000014; PAS.
+DR   InterPro; IPR013767; PAS_fold.
+DR   Pfam; PF00010; HLH; 1.
+DR   Pfam; PF00989; PAS; 1.
+DR   PRINTS; PR00785; NCTRNSLOCATR.
+DR   SMART; SM00353; HLH; 1.
+DR   SMART; SM00086; PAC; 1.
+DR   SMART; SM00091; PAS; 2.
+DR   SUPFAM; SSF47459; SSF47459; 1.
+DR   SUPFAM; SSF55785; SSF55785; 2.
+DR   TIGRFAMs; TIGR00229; sensory_box; 1.
+DR   PROSITE; PS50888; BHLH; 1.
+DR   PROSITE; PS50112; PAS; 2.
+PE   2: Evidence at transcript level;
+KW   Nucleus {ECO:0000256|SAAS:SAAS00146827};
+KW   Transcription {ECO:0000256|SAAS:SAAS00146838};
+KW   Transcription regulation {ECO:0000256|SAAS:SAAS00146838}.
+FT   NON_TER       1      1       {ECO:0000313|EMBL:ACV73019.1}.
+FT   NON_TER     398    398       {ECO:0000313|EMBL:ACV73019.1}.
+SQ   SEQUENCE   398 AA;  44627 MW;  9C858842B0EC2AD9 CRC64;
+     GMPSGKYARM EDDMGENKER FARENHSEIE RRRRNKMTHY INELAEMVPQ CASLGRKPDK
+     LTILRMAVSH MKGIRGHSAQ DETSYKPSFL TDQELKHLIL EAANGFLFVV CCQTGKVLYV
+     ADSITPVLNL KQEDWLQRNL NELIHPDDQD KIRDQLCGSE VSVNKVLDLK TGSVKREGAS
+     TRVHMSCRRG FICRMRVGAL EPLHRLRNRR PLFQHAGQNY VVMHCTGYIK NAPPQGINAP
+     ASSCLVAIAR LQVASMPVCA DPTSTNQFSV RVAEDGKMTF IDSRVSDLIG LSSDQLIGRY
+     WWNLAHPADE KTLQDGFIAL LSDQPMRLNI RVRTSTDYTP CTVSAYKFMN PYSEQFEYVV
+     ATHQIAPQED INNWVTGSAT NQPQATGFGE LGAPVAAG
+//

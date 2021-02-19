@@ -1,0 +1,70 @@
+LOCUS       MN025320                1014 bp    RNA     linear   VRL 30-MAR-2020
+DEFINITION  Pigeon-dominant Coronavirus strain PdCoV/PG/Hebei/15-4-6/2018 NSP15
+            (1ab) gene, partial cds.
+ACCESSION   MN025320
+VERSION     MN025320.1
+KEYWORDS    .
+SOURCE      Pigeon-dominant Coronavirus
+  ORGANISM  Pigeon-dominant Coronavirus
+            Viruses; Riboviria; Orthornavirae; Pisuviricota; Pisoniviricetes;
+            Nidovirales; Cornidovirineae; Coronaviridae; Coronavirinae;
+            unclassified Coronavirinae.
+REFERENCE   1  (bases 1 to 1014)
+  AUTHORS   Zhuang,Q., Liu,S., Zhang,X., Jiang,W., Wang,K., Wang,S., Peng,C.,
+            Hou,G., Li,J., Yu,X., Yuan,L., Wang,J., Li,Y., Liu,H. and Chen,J.
+  TITLE     Surveillance and Taxonomic Analysis of the Coronavirus Dominant in
+            Pigeons in China
+  JOURNAL   Transbound Emerg Dis (2020) In press
+   PUBMED   32163661
+  REMARK    Publication Status: Available-Online prior to print
+REFERENCE   2  (bases 1 to 1014)
+  AUTHORS   Zhuang,Q., Liu,S. and Chen,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (30-MAY-2019) The Laboratory of Avian Disease
+            Surveillance, China Animal Health and Epidemiology Center, Nanjing
+            Road 369, Qingdao, Shandong 266032, China
+COMMENT     ##Assembly-Data-START##
+            Sequencing Technology :: Sanger dideoxy sequencing
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1014
+                     /organism="Pigeon-dominant Coronavirus"
+                     /mol_type="genomic RNA"
+                     /strain="PdCoV/PG/Hebei/15-4-6/2018"
+                     /host="pigeon"
+                     /db_xref="taxon:1649336"
+                     /country="China"
+                     /collection_date="01-Dec-2018"
+     gene            <1..>1014
+                     /gene="1ab"
+     CDS             <1..>1014
+                     /gene="1ab"
+                     /codon_start=1
+                     /product="NSP15"
+                     /protein_id="QIQ28517.1"
+                     /translation="IDNIAYNMYKRGHYDAVVGEMPTIVTGDKVFVIDKGVEKAVFVN
+                     QSTLPTSVAFELYAKRNIRTLPNNRILNGLGVDVAYKFVIWDYNNHMPLYRNTVNVCT
+                     YTDIEPKGLVVLYDDRNGDYQSFLSSDDAVLISTQCYKRFPYVEIPSNLLVQNGIPLQ
+                     DGANLYVYKRSNGIFITLPTTINTQGRNFENFTPRSDLEREFLNMSEEDFVNKYGEGL
+                     GLEHILYGEVDKPQLGGLHSVIGMYKLLHDNKLSAKAVTNSDSDVMQNYFVLASNGSY
+                     KQVCTVVDLLLDDFLELLKQIRSEYGANKSKVVTVSIDYHNIPFMTWFDNGGIRTCYP
+                     QLQS"
+ORIGIN      
+        1 attgacaaca tagcttataa tatgtataag cgtggtcatt atgatgcagt tgttggtgaa
+       61 atgcccacaa ttgtgactgg agataaagtt tttgttatag ataaaggtgt tgaaaaggct
+      121 gtctttgtta accagtctac actacctaca tctgtagctt ttgagttgta tgctaagcgt
+      181 aacatacgta cgctacctaa caacagaatt ttaaacggtc ttggcgtgga tgttgcatat
+      241 aagtttgtta tttgggacta caacaaccat atgccattat accgtaacac tgtgaatgtc
+      301 tgtacatata cagacataga gccaaaaggt ttggttgtgt tatatgatga tcgtaatggc
+      361 gattatcaaa gctttttatc atcggatgat gctgttttga tttcaacaca gtgttataaa
+      421 cgatttcctt atgttgaaat accatctaac ctcttggttc aaaatggtat acctctacaa
+      481 gatggtgcta acttgtatgt ttataagcgt agcaatggta tttttataac attgcctaca
+      541 acaataaaca cacaagggcg taactttgaa aacttcacac cacgtagtga tttggaacgt
+      601 gagtttttga atatgtctga agaggatttt gttaataagt atggtgaagg actaggtctt
+      661 gagcacatac tttacggtga agttgacaag cctcaattag gaggtttgca ttcagtcatt
+      721 ggtatgtata aactcttgca tgacaataag ttgtcagcaa aagctgttac aaattcagat
+      781 tctgatgtta tgcagaatta ttttgtttta gctagtaacg gttcatacaa acaagtgtgt
+      841 actgttgtag atttattgtt agatgacttc ttagaacttc tcaagcaaat acgtagtgag
+      901 tatggtgcaa acaagtctaa agtagtcaca gtttctattg attaccacaa cataccgttt
+      961 atgacatggt ttgataatgg tggtattaga acttgttatc cgcaactcca atct
+//

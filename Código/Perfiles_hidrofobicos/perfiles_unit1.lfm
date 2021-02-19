@@ -1,0 +1,175 @@
+object Form1: TForm1
+  Left = 37
+  Height = 749
+  Top = 684
+  Width = 1334
+  Caption = 'Form1'
+  ClientHeight = 749
+  ClientWidth = 1334
+  OnCreate = FormCreate
+  LCLVersion = '2.0.10.0'
+  object Image1: TImage
+    Left = 168
+    Height = 166
+    Top = 56
+    Width = 908
+  end
+  object Button1: TButton
+    Left = 28
+    Height = 42
+    Top = 104
+    Width = 100
+    Caption = 'Hidrofobicidad'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 40
+    Height = 34
+    Top = 8
+    Width = 88
+    Caption = 'Cargar proteina'
+    OnClick = Button2Click
+    TabOrder = 1
+  end
+  object Edit1: TEdit
+    Left = 133
+    Height = 23
+    Top = 11
+    Width = 142
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Left = 304
+    Height = 34
+    Top = 8
+    Width = 128
+    Caption = 'Escala hidrofóbica'
+    OnClick = Button3Click
+    TabOrder = 3
+  end
+  object Edit2: TEdit
+    Left = 440
+    Height = 23
+    Top = 11
+    Width = 142
+    TabOrder = 4
+  end
+  object SpinEdit1: TSpinEdit
+    Left = 680
+    Height = 23
+    Top = 12
+    Width = 99
+    MaxValue = 30
+    MinValue = 2
+    TabOrder = 5
+    Value = 10
+  end
+  object Label1: TLabel
+    Left = 600
+    Height = 15
+    Top = 16
+    Width = 68
+    Caption = 'Semiventana'
+    ParentColor = False
+  end
+  object ComboBox1: TComboBox
+    Left = 944
+    Height = 23
+    Top = 8
+    Width = 111
+    ItemHeight = 15
+    TabOrder = 6
+  end
+  object SpinEdit3: TSpinEdit
+    Left = 840
+    Height = 23
+    Top = 8
+    Width = 99
+    MaxValue = 30
+    MinValue = 1
+    TabOrder = 7
+    Value = 1
+  end
+  object Label2: TLabel
+    Left = 800
+    Height = 15
+    Top = 12
+    Width = 24
+    Caption = 'Res1'
+    ParentColor = False
+  end
+  object ComboBox2: TComboBox
+    Left = 1208
+    Height = 23
+    Top = 8
+    Width = 111
+    ItemHeight = 15
+    TabOrder = 8
+  end
+  object SpinEdit4: TSpinEdit
+    Left = 1104
+    Height = 23
+    Top = 8
+    Width = 99
+    MaxValue = 30
+    MinValue = 1
+    TabOrder = 9
+    Value = 1
+  end
+  object Label3: TLabel
+    Left = 1064
+    Height = 15
+    Top = 12
+    Width = 24
+    Caption = 'ResF'
+    ParentColor = False
+  end
+  object Image2: TImage
+    Left = 168
+    Height = 166
+    Top = 256
+    Width = 908
+  end
+  object Image3: TImage
+    Left = 168
+    Height = 166
+    Top = 448
+    Width = 908
+  end
+  object Button4: TButton
+    Left = 28
+    Height = 42
+    Top = 304
+    Width = 100
+    Caption = 'Eisenberg'
+    OnClick = Button4Click
+    TabOrder = 10
+  end
+  object Button5: TButton
+    Left = 28
+    Height = 42
+    Top = 496
+    Width = 100
+    Caption = 'Straud'
+    OnClick = Button5Click
+    TabOrder = 11
+  end
+  object SpinEdit2: TSpinEdit
+    Left = 24
+    Height = 23
+    Top = 232
+    Width = 99
+    MaxValue = 180
+    TabOrder = 12
+    Value = 100
+  end
+  object Label4: TLabel
+    Left = 25
+    Height = 15
+    Top = 199
+    Width = 27
+    Caption = 'Delta'
+    ParentColor = False
+  end
+end

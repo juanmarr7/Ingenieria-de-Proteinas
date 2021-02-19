@@ -1,0 +1,56 @@
+This is BibTeX, Version 0.99d (MiKTeX 2.9.7380 64-bit)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: ing_protes.aux
+The style file: apacite.bst
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: Base_datos_covid.bib
+apacite.bst [2013/07/21 v6.03 APA bibliography style]
+You've used 14 entries,
+            6951 wiz_defined-function locations,
+            1354 strings with 14832 characters,
+and the built_in function-call counts, 37711 in all, are:
+= -- 4274
+> -- 374
+< -- 2182
++ -- 2342
+- -- 40
+* -- 2709
+:= -- 7516
+add.period$ -- 49
+call.type$ -- 14
+change.case$ -- 240
+chr.to.int$ -- 0
+cite$ -- 28
+duplicate$ -- 1182
+empty$ -- 1263
+format.name$ -- 783
+if$ -- 6477
+int.to.chr$ -- 0
+int.to.str$ -- 42
+missing$ -- 0
+newline$ -- 401
+num.names$ -- 112
+pop$ -- 467
+preamble$ -- 1
+purify$ -- 58
+quote$ -- 0
+skip$ -- 2064
+stack$ -- 0
+substring$ -- 2468
+swap$ -- 650
+text.length$ -- 36
+text.prefix$ -- 0
+top$ -- 1
+type$ -- 1120
+warning$ -- 0
+while$ -- 265
+width$ -- 0
+write$ -- 553

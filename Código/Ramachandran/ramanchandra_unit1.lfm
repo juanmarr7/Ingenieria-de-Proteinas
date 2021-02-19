@@ -1,0 +1,216 @@
+object Form1: TForm1
+  Left = 166
+  Height = 546
+  Top = 87
+  Width = 1145
+  Caption = 'Cálculo de ángulos de Ramachandran---Juanma_Ruiz'
+  ClientHeight = 526
+  ClientWidth = 1145
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  LCLVersion = '2.0.10.0'
+  object Memo1: TMemo
+    Left = 37
+    Height = 352
+    Top = 32
+    Width = 203
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -12
+    Font.Name = 'Courier New'
+    Font.Pitch = fpFixed
+    Font.Quality = fqDraft
+    ParentFont = False
+    ScrollBars = ssBoth
+    TabOrder = 0
+    WordWrap = False
+  end
+  object Image1: TImage
+    Left = 560
+    Height = 500
+    Top = 7
+    Width = 500
+  end
+  object Memo2: TMemo
+    Left = 240
+    Height = 376
+    Top = 8
+    Width = 304
+    Color = 9741318
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clBlack
+    Font.Height = -12
+    Font.Name = 'Courier New'
+    Font.Pitch = fpFixed
+    Font.Quality = fqDraft
+    ParentFont = False
+    ScrollBars = ssBoth
+    TabOrder = 1
+    WordWrap = False
+  end
+  object Edit1: TEdit
+    Left = 37
+    Height = 23
+    Top = 8
+    Width = 203
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 187
+    Height = 24
+    Top = 7
+    Width = 53
+    Caption = '>>'
+    OnClick = Button1Click
+    TabOrder = 3
+  end
+  object Button2: TButton
+    Left = 33
+    Height = 32
+    Top = 399
+    Width = 118
+    Caption = 'Ramachandran'
+    OnClick = Button2Click
+    TabOrder = 4
+  end
+  object Shape1: TShape
+    Left = 168
+    Height = 35
+    Top = 396
+    Width = 39
+    Brush.Color = clYellow
+    ParentShowHint = False
+    OnMouseDown = Shape1MouseDown
+    Shape = stCircle
+    ShowHint = True
+  end
+  object Shape3: TShape
+    Left = 168
+    Height = 35
+    Top = 440
+    Width = 39
+    Brush.Color = clYellow
+    ParentShowHint = False
+    OnMouseDown = Shape3MouseDown
+    Shape = stCircle
+    ShowHint = True
+  end
+  object Shape4: TShape
+    Left = 168
+    Height = 35
+    Top = 480
+    Width = 39
+    Brush.Color = clBlack
+    ParentShowHint = False
+    OnMouseDown = Shape4MouseDown
+    Shape = stCircle
+    ShowHint = True
+  end
+  object Label1: TLabel
+    Left = 221
+    Height = 15
+    Top = 404
+    Width = 94
+    Caption = 'Color de la pluma'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 221
+    Height = 15
+    Top = 448
+    Width = 87
+    Caption = 'Color del relleno'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 216
+    Height = 15
+    Top = 488
+    Width = 83
+    Caption = 'Color del fondo'
+    ParentColor = False
+  end
+  object ColorDialog1: TColorDialog
+    Color = clBlack
+    CustomColors.Strings = (
+      'ColorA=000000'
+      'ColorB=000080'
+      'ColorC=008000'
+      'ColorD=008080'
+      'ColorE=800000'
+      'ColorF=800080'
+      'ColorG=808000'
+      'ColorH=808080'
+      'ColorI=C0C0C0'
+      'ColorJ=0000FF'
+      'ColorK=00FF00'
+      'ColorL=00FFFF'
+      'ColorM=FF0000'
+      'ColorN=FF00FF'
+      'ColorO=FFFF00'
+      'ColorP=FFFFFF'
+      'ColorQ=C0DCC0'
+      'ColorR=F0CAA6'
+      'ColorS=F0FBFF'
+      'ColorT=A4A0A0'
+    )
+    Left = 130
+    Top = 118
+  end
+  object OpenDialog1: TOpenDialog
+    Left = 149
+    Top = 242
+  end
+  object MainMenu1: TMainMenu
+    Left = 211
+    Top = 86
+    object MenuItem1: TMenuItem
+      Caption = 'Proteinas'
+      object MenuItem2: TMenuItem
+        Caption = 'Abrir PDB'
+        OnClick = Button1Click
+      end
+      object MenuItem3: TMenuItem
+        Caption = 'Cerrar PDB'
+      end
+      object MenuItem4: TMenuItem
+        Caption = 'Salir del programa'
+        OnClick = MenuItem4Click
+      end
+    end
+    object MenuItem5: TMenuItem
+      Caption = 'Cálculos'
+      object MenuItem6: TMenuItem
+        Caption = 'Ramachandran'
+        OnClick = Button2Click
+      end
+    end
+    object MenuItem7: TMenuItem
+      Caption = 'Configuración'
+      object MenuItem8: TMenuItem
+        Caption = 'Colores'
+        object MenuItem9: TMenuItem
+          Caption = 'Pluma'
+        end
+        object MenuItem10: TMenuItem
+          Caption = 'Relleno'
+        end
+        object MenuItem11: TMenuItem
+          Caption = 'Fondo'
+        end
+      end
+      object MenuItem12: TMenuItem
+        Caption = 'Borrar'
+      end
+    end
+    object MenuItem13: TMenuItem
+      Caption = 'Ayuda'
+      object MenuItem14: TMenuItem
+        Caption = 'Ayuda en línea'
+      end
+      object MenuItem15: TMenuItem
+        Caption = 'Acerca de'
+      end
+    end
+  end
+end
